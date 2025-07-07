@@ -13,36 +13,53 @@
     <gazebo reference="wheel_link_fl">
       <kp>1000000</kp>
       <kd>100</kd>
+      <!-- Sürtünme parametreleri -->
+      <mu1>2.0</mu1>
+      <mu2>2.0</mu2>
     </gazebo>
     
     <gazebo reference="caster_link_fl">
+      <!-- Caster bağlantısı da yere temas ediyorsa, sürtünme eklenebilir -->
+      <mu1>2.0</mu1>
+      <mu2>2.0</mu2>
     </gazebo>
 
     <!-- front right wheel -->
     <gazebo reference="wheel_link_fr">
       <kp>1000000</kp>
       <kd>100</kd>
+      <mu1>2.0</mu1>
+      <mu2>2.0</mu2>
     </gazebo>
-    
-    <gazebo reference="caster_link_fr">   
+    <gazebo reference="caster_link_fr">
+      <mu1>2.0</mu1>
+      <mu2>2.0</mu2>
     </gazebo>
 
     <!-- back left wheel -->
     <gazebo reference="wheel_link_bl">
       <kp>1000000</kp>
       <kd>100</kd>
+      <mu1>2.0</mu1>
+      <mu2>2.0</mu2>
     </gazebo>
     
     <gazebo reference="caster_link_bl">
+      <mu1>2.0</mu1>
+      <mu2>2.0</mu2>
     </gazebo>
 
     <!-- back right wheel -->
     <gazebo reference="wheel_link_br">
       <kp>1000000</kp>
       <kd>100</kd>
+      <mu1>2.0</mu1>
+      <mu2>2.0</mu2>
     </gazebo>
     
     <gazebo reference="caster_link_br">
+      <mu1>2.0</mu1>
+      <mu2>2.0</mu2>
     </gazebo>
 
   </xacro:macro>

@@ -1530,5 +1530,9 @@
         <projection_type>perspective</projection_type>
       </camera>
     </gui>
-  </world>
+  
+    <plugin name="GazeboPlugin" filename="/home/noetic/GazeboPlugin/export/lib/libGazeboCoSimPlugin.so">
+      <portNumber>31311</portNumber>
+    </plugin>
+    </world>
 </sdf>

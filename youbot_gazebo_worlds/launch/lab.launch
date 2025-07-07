@@ -5,7 +5,7 @@
   <arg name="gui" default="true"/>
   <arg name="headless" default="false"/>
   <arg name="debug" default="false"/>
-  <arg name="rviz_config" default="$(find my_package)/rviz/my_rviz_config.rviz"/>
+  <!--<arg name="rviz_config" default="$(find my_package)/rviz/my_rviz_config.rviz"/> -->
 
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
     <arg name="paused" value="false"/>
@@ -17,8 +17,7 @@
   </include>
 
 
-  <node name="map_server" pkg="map_server" type="map_server" args="$(find youbot_gazebo_worlds)/maps/map.yaml" />
-  <node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rviz_config)" required="true" />
+<!-- <node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rviz_config)" required="true" /> -->
 
 
 
