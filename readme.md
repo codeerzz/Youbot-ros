@@ -19,7 +19,7 @@
 1. Rosore
 
     Roscore için jetsonu kullanıyoruz bu yüzden jetson terminalinde
-    `roscore` ile ros çekirdeğini başlatıyoruz
+    ```roscore``` ile ros çekirdeğini başlatıyoruz
 2. Youbot'u Başlatma  
     Youbot terminalinden youbotun ros sürücüsünü başlatıyoruz                                                                             
     `roslaunch youbot_driver_ros_interface youbot_driver.launch`  
