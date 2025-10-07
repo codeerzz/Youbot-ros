@@ -33,11 +33,12 @@
 
 
 ## Kumanda ile Robotu sürme
-   \+ tuşu tüm ros nodelarını kapatır.  
-   R tuşu Dead Man's switch görevü görmektedir. Basılı tutulduğunda robot hareket ettirebilir öbür türlü çalışmayacaktır.  
-   Sol analog y ekseni ileri yönde hareket ettir.  
-   Sol analog x ekseni dönme hareketinii yaptırır.  
-   Sağ analog x ekseni yatay yönde hareket ettirir.          
+   + \+ tuşu tüm ros nodelarını kapatır.  
+   + R tuşu Dead Man's switch görevü görmektedir.  
+   +  Basılı tutulduğunda robot hareket ettirebilir öbür türlü çalışmayacaktır.  
+   + Sol analog y ekseni ileri yönde hareket ettir.  
+   + Sol analog x ekseni dönme hareketinii yaptırır.  
++ Sağ analog x ekseni yatay yönde hareket ettirir.          
     **Kumandayı başlatmak için :**        
    `roslaunch teleop_twist_joy teleop.launch`
 ## Kol test etme 
