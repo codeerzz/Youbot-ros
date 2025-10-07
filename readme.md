@@ -40,6 +40,9 @@
    Sağ analog x ekseni yatay yönde hareket ettirir.          
     **Kumandayı başlatmak için :**        
    `roslaunch teleop_twist_joy teleop.launch`
+## Kol test etme 
+## Rtabmap
+## Rviz
 
    
  
